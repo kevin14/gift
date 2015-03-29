@@ -2,10 +2,10 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>列表页</title>
     <link rel="stylesheet" type="text/css" href="./css/base.css">
     <link rel="stylesheet" type="text/css" href="./css/common.css">
-    <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/list.css">
 </head>
 <body>
 	<div class="header">
@@ -96,131 +96,71 @@
 		</div>
 	</div>
 
-	<div class="slider">
-		<a href="#" class="img-link show">
-			<img class="img" src="./img/slide_1.jpg"></img>
-		</a>
-		<a href="#" class="img-link">
-			<img class="img" src="http://img.la/1920x580"></img>
-		</a>
-		<a href="#" class="img-link">
-			<img class="img" src="./img/slide_1.jpg"></img>
-		</a>
-		<a href="#" class="img-link">
-			<img class="img" src="http://img.la/1920x580"></img>
-		</a>
-		<div class="btn-box">
-			<a href="javascript:;" class="prev btn"></a>
-			<a href="javascript:;" class="next btn"></a>
-		</div>
-	</div>
-
 	<div class="wrapper">
 
-		<div class="home-img-nav">
-			<div class="nav">
-				<a href="javascript:;" class="nav-one on link">
-					<span>美食</span>
-				</a>
-				<a href="javascript:;" class="nav-two link">
-					<span>体验</span>
-				</a>
-				<a href="javascript:;" class="nav-three link">
-					<span>创意</span>
-				</a>
+		<div class="guide"><span class="home-icon"></span><a href="home.html" class="home">首页</a>  /  399元礼品组合</div>
+		<div class="selector-nav">
+			<div class="title li">您选择了</div>
+			<div class="price li">
+				<span class="price-box price1"><span class="real-price">399</span>元礼品组合</span>
+				<span class="price-box li-content price2"><span class="real-price">699</span>元礼品组合</span>
 			</div>
-			<div class="img-guide-box">
-				<div class="guide-one guide on">
-					<a href="#" class="big-pic">
-						<div class="content">
-							<span class="title">烛光晚餐</span>
-							<span class="desc">达芬奇江景餐厅</span>
+			<div class="type li">
+				所有类别
+				<ul class="type-box ef-box">
+					<li class="li-content">美  食</li>
+					<li class="li-content">体  验</li>
+					<li class="li-content">创  意</li>
+				</ul>
+			</div>
+			<div class="score li">
+				所有星级评分
+				<ul class="score-box ef-box">
+					<li class="li-content star-content">
+						<div class="star-box star-five">
+							<span class="star star1"></span>
+							<span class="star star2"></span>
+							<span class="star star3"></span>
+							<span class="star star4"></span>
+							<span class="star star5"></span>
 						</div>
-						<img src="http://img.la/640x360">
-					</a>
-					<a href="#" class="small-pic-one small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-two small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-three small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-four small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-five small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-				</div>
-				<div class="guide-two guide">
-					<a href="#" class="big-pic">
-						<div class="content">
-							<span class="title">烛光晚餐2</span>
-							<span class="desc">达芬奇江景餐厅</span>
+						五星
+					</li>
+					<li class="li-content star-content">
+						<div class="star-box star-four">
+							<span class="star star1"></span>
+							<span class="star star2"></span>
+							<span class="star star3"></span>
+							<span class="star star4"></span>
+							<span class="star star5"></span>
 						</div>
-						<img src="http://img.la/640x360">
-					</a>
-					<a href="#" class="small-pic-one small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-two small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-three small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-four small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-five small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-				</div>
-				<div class="guide-three guide">
-					<a href="#" class="big-pic">
-						<div class="content">
-							<span class="title">烛光晚餐3</span>
-							<span class="desc">达芬奇江景餐厅</span>
+						四星
+					</li>
+					<li class="li-content star-content">
+						<div class="star-box star-three">
+							<span class="star star1"></span>
+							<span class="star star2"></span>
+							<span class="star star3"></span>
+							<span class="star star4"></span>
+							<span class="star star5"></span>
 						</div>
-						<img src="http://img.la/640x360">
-					</a>
-					<a href="#" class="small-pic-one small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-two small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-three small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-four small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
-					<a href="#" class="small-pic-five small-pic">
-						<span class="content">这里是礼品的名字啊</span>
-						<img src="http://img.la/320x180">
-					</a>
+						三星
+					</li>
+				</ul>
+			</div>
+			<div class="tags li">
+				选择标签
+				<div class="tags-box ef-box">
+					<a href="#" class="tag">有停车场</a>
+					<a href="#" class="tag">有停车场</a>
+					<a href="#" class="tag">有停车场</a>
+					<a href="#" class="tag">有停车场</a>
+					<a href="#" class="tag">有停车场</a>
+					<a href="#" class="tag">有停车场</a>
 				</div>
 			</div>
 		</div>
-
-		<div class="product-wrapper">
+		<div class="product-list">
 			<div class="product">
 				<div class="img-box">
 					<a href="#" class="notice">了解详情</a>
@@ -311,41 +251,32 @@
 					<span class="info"><span class="count">48</span>人购买</span>
 				</div>
 			</div>
-			<div class="product">
-				<div class="img-box">
-					<a href="#" class="notice">了解详情</a>
-					<img src="http://img.la/384x216" alt="" class="img">
-				</div>
-				<div class="content">
-					<a href="#" class="title">这里是礼品的名字啊</a>
-					<span class="info"><span class="count">48</span>人购买</span>
-				</div>
-			</div>
-			<div class="product">
-				<div class="img-box">
-					<a href="#" class="notice">了解详情</a>
-					<img src="http://img.la/384x216" alt="" class="img">
-				</div>
-				<div class="content">
-					<a href="#" class="title">这里是礼品的名字啊</a>
-					<span class="info"><span class="count">48</span>人购买</span>
-				</div>
-			</div>
-			<div class="product">
-				<div class="img-box">
-					<a href="#" class="notice">了解详情</a>
-					<img src="http://img.la/384x216" alt="" class="img">
-				</div>
-				<div class="content">
-					<a href="#" class="title">这里是礼品的名字啊</a>
-					<span class="info"><span class="count">48</span>人购买</span>
-				</div>
-			</div>
-
-			<div class="get-more-box">
-				<a href="#" class="get-more">更多礼品</a>
-			</div>
-
+			<ul class="pages">
+				<li>
+					<a class="page" href="#">prev</a>
+				</li>
+				<li>
+					<a class="page on" href="#">1</a>
+				</li>
+				<li>
+					<a class="page" href="#">2</a>
+				</li>
+				<li>
+					<a class="page" href="#">3</a>
+				</li>
+				<li>
+					<a class="page" href="#">4</a>
+				</li>
+				<li>
+					<a class="page" href="#">5</a>
+				</li>
+				<li>
+					<a class="page" href="#">6</a>
+				</li>
+				<li>
+					<a class="page" href="#">next</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 
@@ -377,6 +308,6 @@
 		</div>
 	</div>
 </body>
-<script data-main="./js/home" src="./js/lib/require.js"></script>
+<script data-main="./js/list" src="./js/lib/require.js"></script>
 <script src="./js/index.js"></script>
 </html>

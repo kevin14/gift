@@ -18,4 +18,23 @@ define(['jquery'], function($) {
 		$('.cart-box').removeClass('on');
 	})
 
+	$('body').on('click','.user-box',function(e){
+		$('.user-box').addClass('on');
+	})
+
+	$('body').on('mouseleave','.user-box',function(e){
+		$('.user-box').removeClass('on');
+	})
+
+
+
+	//商品模块
+	$('.product').on('mouseenter','.title',function(){
+		$(this).parents('.product').find('.img-box').addClass('hover');
+	})
+
+	$('.product').on('mouseleave','.title',function(){
+		$(this).parents('.product').find('.img-box').removeClass('hover');
+	})
+
 });
