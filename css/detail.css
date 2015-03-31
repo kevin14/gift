@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.product-wrapper {
+  font-size: 0;
+  padding-bottom: 35px;
+}
+.product-wrapper .product {
+  margin-left: 40px;
+  margin-top: 35px;
+}
