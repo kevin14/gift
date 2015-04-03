@@ -379,3 +379,32 @@ body {
   background-color: #656a6d;
   text-align: center;
 }
+.guide {
+  color: #95a8b1;
+  font-size: 12px;
+  padding: 30px 0;
+}
+.guide .link {
+  color: #95a8b1;
+}
+.guide .link:hover {
+  color: #f6442c;
+}
+.guide .home-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: -4px;
+}
+.guide .current {
+  display: inline-block;
+  float: right;
+}
+.guide .current .cost {
+  color: #f6442c;
+  font-size: 24px;
+  line-height: 24px;
+}

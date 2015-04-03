@@ -1,13 +1,181 @@
-.wrapper {
+.product-wrapper {
+  font-size: 0;
+  padding-bottom: 35px;
   background-color: #ffffff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-.product-wrapper {
-  font-size: 0;
-  padding-bottom: 35px;
-}
 .product-wrapper .product {
   margin-left: 40px;
   margin-top: 35px;
+}
+.product-info {
+  width: 1120px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.product-info .slider-box {
+  width: 768px;
+  height: 550px;
+  display: inline-block;
+}
+.product-info .slider-box .slider {
+  height: 432px;
+  background-color: #95a8b1;
+}
+.product-info .slider-box .slide-index {
+  margin-top: 30px;
+}
+.product-info .slider-box .slide-index .index {
+  display: inline-block;
+  width: 96px;
+  height: 54px;
+  margin-left: 40px;
+}
+.product-info .info-box {
+  width: 272px;
+  padding: 40px 40px 0 40px;
+  height: 510px;
+  float: right;
+}
+.product-info .info-box .title {
+  font-size: 20px;
+  color: #525a5e;
+}
+.product-info .info-box .desc {
+  color: #95a8b1;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+.product-info .info-box .score-box {
+  margin-top: 40px;
+  height: 80px;
+}
+.product-info .info-box .score-box .score {
+  color: #f6442c;
+  font-size: 80px;
+  float: left;
+}
+.product-info .info-box .score-box .score-info {
+  margin-left: 10px;
+  float: left;
+}
+.product-info .info-box .score-box .comments-info {
+  margin-top: 15px;
+}
+.product-info .info-box .score-box .comments-info .count {
+  color: #f6442c;
+  font-size: 22px;
+}
+.product-info .info-box .score-box .star-box {
+  margin-top: 20px;
+  display: inline-block;
+}
+.product-info .info-box .score-box .star-box .star {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+  background-color: #95a8b1;
+  -webkit-transition: 200ms background-color;
+  transition: 200ms background-color;
+}
+.product-info .info-box .score-box .star-box.star-four .star5 {
+  background-color: #f0f1f2;
+}
+.product-info .info-box .score-box .star-box.star-three .star5 {
+  background-color: #f0f1f2;
+}
+.product-info .info-box .score-box .star-box.star-three .star4 {
+  background-color: #f0f1f2;
+}
+.product-info .info-box .statistics {
+  margin-top: 40px;
+}
+.product-info .info-box .statistics .count {
+  color: #39c7ea;
+  font-size: 22px;
+}
+.product-info .info-box .statistics .count.collect-count {
+  margin-left: 10px;
+}
+.product-info .info-box .btn {
+  display: inline-block;
+  line-height: 50px;
+  width: 270px;
+  height: 50px;
+  border: 1px solid #95a8b1;
+  color: #95a8b1;
+}
+.product-info .info-box .btn .icon {
+  width: 60px;
+  height: 50px;
+  border-right: 1px solid #95a8b1;
+  display: inline-block;
+  float: left;
+}
+.product-info .info-box .btn .text {
+  text-align: center;
+  display: inline-block;
+  width: 209px;
+  float: right;
+  letter-spacing: 2px;
+}
+.product-info .info-box .collect-btn {
+  margin-top: 20px;
+}
+.product-info .info-box .buy-btn {
+  margin-top: 20px;
+  background-color: #f6442c;
+  color: #ffffff;
+  border-color: #f6442c;
+}
+.product-info .info-box .buy-btn .icon {
+  border-color: #ffffff;
+}
+.recommand {
+  margin: 35px auto 0;
+  overflow: hidden;
+}
+.recommand .title {
+  text-align: center;
+  color: #f6442c;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.recommand .title .change {
+  color: #95a8b1;
+  font-size: 14px;
+  float: right;
+  margin-right: 35px;
+}
+.product-detail-box {
+  margin: 35px auto 0;
+}
+.product-detail-box .nav {
+  height: 50px;
+}
+.product-detail-box .nav li {
+  float: left;
+  margin-right: 20px;
+}
+.product-detail-box .nav li a {
+  display: block;
+  width: 320px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fcfdfd;
+  color: #95a8b1;
+}
+.product-detail-box .nav li a.on {
+  color: #f6442c;
+  background-color: #ffffff;
+}
+.product-detail-box .main {
+  background-color: #ffffff;
+  height: 800px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
